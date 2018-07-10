@@ -1,15 +1,74 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+
+/*index.css*/
+
+html{
+
+font-family: cursive;
+}
+
+.hour-estimate{
+    font-weight: bolder;
+    color: red;
+    font-style: italic;
+    font-size: small;
+}
+
+#add-todo-button{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#add-todo-button:active{
+    background-color: silver;
+    box-shadow: 2px 2px 2px;
+    color: white;
+}
+
+li{
+    padding: 5px;
+    background-color: white;
+    width: 400px;
+    
+}
+
+input[type="checkbox"]{
+    border: dotted;
+    border-color: red;
+    border-width: thick
+}
+
+a:hover{
+    color: blue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+h1{
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+    padding: 15px; 
+    width: px;
+    height: px;
+    border-style: double
+    
+}
+
+div{
+    text-align: left
+}
+
+body{
+    background-color: silver;
+}
+
+.completed-todo{
+    text-decoration: line-through;
+}
