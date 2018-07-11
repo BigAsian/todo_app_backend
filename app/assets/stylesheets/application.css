@@ -72,3 +72,55 @@ body{
 .completed-todo{
     text-decoration: line-through;
 }
+
+/*show.css*/
+html{
+    font-family: cursive;
+}
+
+body{
+    background-color: silver;
+}
+
+h1{
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px; 
+    width: px;
+    height: px;
+    background-color: white
+}
+
+h2{
+    text-align: left;
+}
+
+input[value="Delete"]{
+    border-radius: 10px;
+    background-color: white;
+}
+
+input[value="Delete"]:active{
+    background-color: silver;
+    color: white;
+}
+
+input[value="Edit"]{
+    border-radius: 10px;
+    background-color: white;
+}
+
+input[value="Edit"]:active{
+    background-color: silver;
+    color: white;
+}
+
+input[value="Go Back"]{
+    border-radius: 10px;
+    background-color: white;
+}
+
+input[value="Go Back"]:active{
+    background-color: silver;
+    color: white;
+}
