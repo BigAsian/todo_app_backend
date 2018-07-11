@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: 
+  time_estimate: 1
+  complete: false
+
+two:
+  description: 
+  time_estimate: 1
+  complete: false
