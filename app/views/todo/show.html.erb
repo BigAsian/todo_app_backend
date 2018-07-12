@@ -1,7 +1,6 @@
 <h1>ToDos</h1>
         <h2><%=@todo.description%></h2>
-        
-                <p><%=@todo.time_estimate%></p>   
-        <input type="submit" value="Edit">
-        <input type="submit" value="Delete">
+        <p><%=@todo.time_estimate%></p>   
+        <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button"><input type="submit" value="Edit"></a>
+        <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button"><input type="submit" value="Delete"></a>
         <a href="https://todo-app-backend-bigasian.c9users.io/todo/index.html"><input type="submit" value="Go Back"></a>

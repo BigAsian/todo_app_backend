@@ -1,29 +1,15 @@
 <h1>ToDos</h1>
         <u1 style="list-style: none">
+            <% @todos.each do |todo| %>
             <li>
                 <input type="checkbox">
-                <a href="show/1">Wake up</a>
-                <span class="hour-estimate">.1 hour(s)</span>
+                <a href="show/<%= todo.id %>"><%= todo.description %></a>
+                <span class="hour-estimate"><%= todo.time_estimate %></span>
             </li>
-            <li>
-                <input type="checkbox">
-                <a href="show/2">Eat food</a>
-                <span class="hour-estimate">1 hour(s)</span>
-            </li>
-            <li>
-                <input type="checkbox">
-                <a href="show/3">Perform cellular respiration</a>
-                <span class="hour-estimate">24 hour(s)</span>
-            </li>
-            <li>
-                <input type="checkbox">
-                <a href="show/4">Exist</a>
-                <span class="hour-estimate">24 hour(s)</span>
-            </li>
-            <li>
-                <input type="checkbox">
-                <a href="show/5">Sleep</a>
-                <span class="hour-estimate">8 hour(s)</span>
-            </li>
+            <% end %>
         </u1>
-        <div><input id="add-todo-button" type="submit" value="Add todo"></div>
+        <div id="new-todo-block">
+            <a href="/todo/new">
+                <div><input id="add-todo-button" type="submit" value="Add todo">
+                </div></a>
+        </div>

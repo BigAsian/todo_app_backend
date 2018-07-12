@@ -1,0 +1,10 @@
+<div>
+  <h1>Edit Todo</h1>
+
+  <form action="/todo/update/<%= @todo.id %>">
+    <input class="text-input" name="description" type="text" value="<%= @todo.description %>">
+    <input class="text-input" name="time_estimate" type="number" value="<%= @todo.time_estimate %>">
+    <input class="button add-new-todo-button" type="submit" value="Edit todo">
+    <a href="/todo/index" class="simple-link"><input type="submit" value="Go Back"></a>
+  </form>
+</div>

@@ -60,7 +60,7 @@ h1{
     border-radius: 25px;
     background: white;
     padding: 15px; 
-    width: 200px;
+    width: 600px;
     height: px;
     border-style: double;
     margin-left: auto;
@@ -74,7 +74,7 @@ div{
 }
 
 body{
-    background-color: silver;
+    background: linear-gradient(to right, green, white);
 }
 
 .completed-todo{
@@ -114,24 +114,34 @@ html{
 
 body{
     background-color: silver;
+    
 }
 
 h1{
     text-align: center;
     border-radius: 25px;
-    padding: 15px; 
-    width: px;
+    padding: 150px; 
+    width: 1000px;
     height: px;
     background-color: white
 }
 
 h2{
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    border-color: blue;
 }
 
+
 input[value="Delete"]{
-    border-radius: 10px;
+    font-size: 15px;
+    color: black;
     background-color: white;
+    border-radius: 10px;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[value="Delete"]:active{
@@ -140,8 +150,14 @@ input[value="Delete"]:active{
 }
 
 input[value="Edit"]{
-    border-radius: 10px;
+    font-size: 15px;
+    color: black;
     background-color: white;
+    border-radius: 10px;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[value="Edit"]:active{
@@ -150,11 +166,105 @@ input[value="Edit"]:active{
 }
 
 input[value="Go Back"]{
-    border-radius: 10px;
+    font-size: 15px;
+    color: black;
     background-color: white;
+    border-radius: 10px;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[value="Go Back"]:active{
     background-color: silver;
     color: white;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border-color: blue;
+}
+
+/*edit.css*/
+html{
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+    padding: 15px; 
+    width: 200px;
+    height: px;
+    border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[value="Edit todo"]{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[name="description"]{
+    margin: auto;
+    width: 173px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    border-style: outset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="number"]{
+    margin: auto;
+    width: 173px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    border-style: outset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    width: 173px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+body{
+    border-style: dotted;
+}
+
+input[value="Cancel"]{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
