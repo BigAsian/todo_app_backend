@@ -238,13 +238,18 @@ h1{
 
 input[value="Edit todo"]{
     font-size: 15px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: blue;
     border-radius: 10px;
     width: 173px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 input[name="description"]{
