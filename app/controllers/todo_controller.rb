@@ -25,7 +25,7 @@ class TodoController < ApplicationController
     def update
         t = Todo.find_by_id(params['id'])
         t.description = params['description']
-        t.time_estimate = params['time-estimate']
+        t.time_estimate = params['time_estimate']
         t.save
         redirect_to "/todo/show/#{t.id}"
     end
